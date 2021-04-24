@@ -1,6 +1,7 @@
 // Built files and vendor
 node_modules
-dist
+
+npm-debug.log 
 coverage
 
 // Platform specific
