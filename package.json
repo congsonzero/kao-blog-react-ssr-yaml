@@ -14,7 +14,7 @@
     "lint": "eslint \"**/*.{tsx,ts,js}\"",
     "format": "prettier --write \"**/*.{tsx,ts,js,css,html,json,yml,md}\"",
     "test": "jest",
-    "deploy":"npm run build:prod & git add . & git commit -m 'release' & git push",
+    "deploy": "npm run build:prod & git add . & git commit -m 'release' & git push",
     "start": "npm run serve:prod"
   },
   "dependencies": {
